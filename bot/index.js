@@ -20,8 +20,8 @@ let bot = new BotBuilder.UniversalBot(connector)
  * @param  {string} from    Beginning language.
  * @param  {string} to      Target language.
  */
-function translateAndSend(session, text, from, to) {
-  function sendReponse(response) {
+function translateAndSend (session, text, from, to) {
+  function sendReponse (response) {
     session.send(response.text || 'Something went wrong, try again.')
     session.endDialog()
   }
