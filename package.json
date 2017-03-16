@@ -1,0 +1,20 @@
+{
+  "name": "azurebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "6.10.0"
+  },
+  "author": "Matt Hernandez <maherna@microsoft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "LUISSDK": "github:fiveisprime/Cognitive-LUIS-Node.js",
+    "botbuilder": "3.7.0",
+    "google-translate-api": "2.2.2",
+    "restify": "4.3.0"
+  }
+}
